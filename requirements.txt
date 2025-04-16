@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+fastapi-jwt-auth
+pydantic
+sqlalchemy
+databases
+alembic
+python-dotenv
+pyspellchecker
