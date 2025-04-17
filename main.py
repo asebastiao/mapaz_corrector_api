@@ -20,3 +20,7 @@ def corrigir_texto(data: dict, Authorize: AuthJWT = Depends()):
     Authorize.jwt_required()
     frase = data.get("frase", "")
     return {"frase_corrigida": corrigir_frase(frase)}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
