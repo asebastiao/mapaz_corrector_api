@@ -2,7 +2,7 @@ fastapi
 uvicorn
 openai
 fastapi-jwt-auth
-pydantic
+pydantic<2.0
 sqlalchemy
 databases
 alembic
