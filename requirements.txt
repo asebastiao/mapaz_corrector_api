@@ -8,3 +8,5 @@ databases
 alembic
 python-dotenv
 pyspellchecker
+jinja2
+aiofiles
